@@ -1,6 +1,0 @@
-{
-  "name": "Clutch — The Last-Minute Life Saver",
-  "description": "An autonomous last-minute deadline-rescue assistant that translates unstructured descriptions of your week into actionable tasks and resolves them for you.",
-  "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
-}
