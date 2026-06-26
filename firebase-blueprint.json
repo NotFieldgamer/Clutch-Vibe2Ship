@@ -1,0 +1,31 @@
+{
+  "collections": {
+    "tasks": {
+      "description": "User scheduled tasks, sub-steps, blocks, and generated artifacts",
+      "fields": {
+        "id": "string",
+        "userId": "string",
+        "title": "string",
+        "deadlineISO": "string",
+        "importance": "number",
+        "percentDone": "number",
+        "type": "string",
+        "subSteps": "array",
+        "blocks": "array",
+        "artifacts": "array"
+      }
+    },
+    "actionLogs": {
+      "description": "User action log events and tool invocation history",
+      "fields": {
+        "id": "string",
+        "userId": "string",
+        "tool": "string",
+        "summary": "string",
+        "at": "string",
+        "ok": "boolean"
+      }
+    }
+  },
+  "rulesPath": "firestore.rules"
+}
